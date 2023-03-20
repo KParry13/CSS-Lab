@@ -3,7 +3,7 @@
 header{
     font-size: 70px;
     font-weight: 700;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Georgia;
     text-align: center;
 }
 
@@ -17,7 +17,48 @@ header{
 
 /* This will apply any included styles to the body element */
 body{
+    font-family: Georgia
+    
 
 }
 
 /* Create your own classes below! */
+.navbar 
+    ul {
+        background-color: #333;
+      }
+      
+      li {
+        float: left;
+      }
+      
+      li a {
+        background-color: #333;
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+
+      li a:hover {
+        background-color: rgb(14, 127, 127);
+      }
+
+      .active {
+        background-color: #04AA6D;
+      }
+
+
+.background {background-color:#996699;}
+
+ 
+.firstclass {
+    padding: 5px;
+    margin:auto;
+    border-width: 400px;
+    border: 1px;
+    border-style: round;
+    border-color: aquamarine;
+    
+}
